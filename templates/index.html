@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+
+	<style type = "text/css">
+		body {font-family : consolas;
+		background-color : black;
+		color : green;
+		font-weight : bold;
+		}
+
+		a:link{color : green;
+			margin : auto;
+			text-decoration : none}
+		a:visited{color : orange;}
+		a:hover{color : white;
+				text-decoration : underline}
+		a:active{color : red}
+
+
+		div {color : green;
+		  margin-right : 50px;
+		  column-width : 500px
+		  }
+
+		span {/*background-color : white;*/
+				color  : green;
+				font-family : Garamond;
+				font-size: 75px}
+
+
+		h1 {text-align : center;
+		font-family : Century Gothic;
+		font-weight : normal;
+		background-color: white;
+		padding : 10px;
+		border-width : 4px;
+		border-style : groove;
+		border-right-color: green;
+		border-color: green;
+		width : 90%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			font-family: Century Gothic;
+		}
+		input.in{
+			width : 100%;
+			height : 50px;
+			font-size: 40px;
+			font-family: Century Gothic;
+			border-radius: 10px;
+		}
+		.submit{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 25px;
+			padding : 10px 20px;
+			font-family: Century Gothic;
+			background-color: darkgoldenrod;
+			border : darkgoldenrod;
+			border-radius: 10px;
+		}
+		.form_text{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			font-family: Century Gothic;
+			font-size:25px;
+		}
+	</style>
+    <title>
+        The Pi Game
+    </title>
+</HEAD>
+<body>
+<h1>The Pi Game</h1>
+<p>Guess the number pi upto desired number of decimal digits to know your result.</p>
+<form method="POST" class = "center">
+	<p class = "form_text">Your Response</p>
+	<input width="1000px" name="input" class = "in" >
+	<br><br>
+
+	<p class = "form_text">Name</p>
+	<input type="text" name = "usr_name" class = "in">
+	<br><br>
+    <input type="submit" class = "submit">
+</form>
+</body>
+
+</HTML>
