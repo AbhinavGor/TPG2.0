@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block head %}
+        The Pi Game
+{% endblock %}
+
+{% block body %}
+<h1>The Pi Game</h1>
+<p>Hello {{usr_name}}! Your score is {{out}}.</p>
+
+{% for score in scores %}
+            <tr>
+                <td>{{ score.userName }}</td>
+                <td>{{ score.Score }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
