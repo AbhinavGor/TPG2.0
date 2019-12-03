@@ -1,7 +1,6 @@
 # TPG2.0
  
- This is an app built in flask.Currently , it serves the basic purpose of outputing the value of Pi ,when the user inputs a value.
- 
- 
- But future plans for the app is to convert it into an app for creating local commutnities that have a similar interest.
+ This is an app built in flask.Currently , it serves the basic purpose of making the user learn the decimal digits in the number 'pi'.
+  
+ The future plans for the app is to convert it into an app for creating local communities that have a similar interests  related to computer science and related subjects.
  
